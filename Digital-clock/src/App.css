@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+body{
+  background-color: rgb(108, 224, 166);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digital-clock{
+  width: 400px;
+  background-color: #fff;
+  padding: 30px 35px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+h1{
+  color: orangered;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.time{
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.date{
+  color: #888;
+  font-size: 20px;
+}
